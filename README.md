@@ -3,18 +3,18 @@
 This repository contains the implementation of a 64-bit pipelined RISC-V processor using Verilog HDL. The design follows the RV64I base integer instruction set architecture (ISA) and incorporates a 5-stage pipeline: Instruction Fetch (IF), Instruction Decode (ID), Execution (EX), Memory Access (MEM), and Write Back (WB).
 
 ## Table of Contents
-- Features
-- What’s Different in This Design
-- Pipeline Stages
-- Modules
-- How to Use
-- Project Structure
-- Future Enhancements
-- Contributing
-- License
+- [Circuit Diagram](https://github.com/KishorKumar0/RISC-V-Processor/edit/main/README.md#circuit-diagram)
+- [Features](https://github.com/KishorKumar0/RISC-V-Processor/blob/main/README.md#features)
+- [What’s Different in This Design](https://github.com/KishorKumar0/RISC-V-Processor/edit/main/README.md#whats-different-in-this-design)
+- [Pipeline Stages](https://github.com/KishorKumar0/RISC-V-Processor/edit/main/README.md#pipeline-stages)
+- [Modules](https://github.com/KishorKumar0/RISC-V-Processor/edit/main/README.md#modules)
+  <!-- - [How to Use]() -->
+- [Project Structure](https://github.com/KishorKumar0/RISC-V-Processor/edit/main/README.md#project-structure)
+- [Future Enhancements](https://github.com/KishorKumar0/RISC-V-Processor/edit/main/README.md#future-enhancements)
+<!-- - [Contributing]() -->
+<!-- - [License]() -->
 
-This is a verilog code for a 5-stage pipelined RISC-V Processor with forwarding functionality. Here is the circuit diagram of the processor.
-
+## Circuit Diagram
 ![The circuit diagramme of the processor.](CircuitDiagramme.png)
 
 ## Features
