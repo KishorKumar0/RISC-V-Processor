@@ -17,7 +17,7 @@ This is a verilog code for a 5-stage pipelined RISC-V Processor with forwarding 
 
 ![The circuit diagramme of the processor.](CircuitDiagramme.png)
 
-Features
+## Features
 - Implements the RV64I instruction set.
 - Fully pipelined design with 5 stages:
   - **IF:** Fetches the instruction from memory.
@@ -30,7 +30,7 @@ Features
   - Forwarding unit for resolving data hazards.
   - Basic branch prediction and control hazard resolution.
 
-### What’s Different in This Design
+## What’s Different in This Design
 This RISC-V processor design introduces several unique aspects that differentiate it from other implementations:
 
   1. **Customizable Register Initialization:**
@@ -50,7 +50,7 @@ This RISC-V processor design introduces several unique aspects that differentiat
   8. **Compatibility with IoT Applications:**
     - The modularity and scalability of this design make it well-suited for lightweight IoT and edge-computing systems.
 
-### Pipeline Stages
+## Pipeline Stages
 1. **Instruction Fetch (IF):**
     - Fetches instructions from the Instruction Memory.
     - Maintains the current Program Counter (PC).
@@ -70,7 +70,7 @@ This RISC-V processor design introduces several unique aspects that differentiat
 4. **Write Back (WB):**
     - Writes ALU or memory results back to the Register File.
 
-### Modules
+## Modules
 Below is the list of modules in the design:
 
 1. **Top-Level Module:** RISC_V_Processor (the main processor module).
@@ -91,7 +91,7 @@ Below is the list of modules in the design:
     - `WBRegister` (MEM/WB)
 13. **Data_Memory:** Implements memory access for load/store instructions.
 
-### Project Structure
+## Project Structure
 
 risc-v-processor/
 ```
@@ -120,7 +120,7 @@ risc-v-processor/
 └── README.md                    # Project documentation
 ```
 
-### Future Enhancements
+## Future Enhancements
 - Extend support to other RISC-V ISA extensions (e.g., RV64M for multiplication and division).
 - Add advanced branch prediction mechanisms.
 - Implement a cache system for improved memory access performance.
